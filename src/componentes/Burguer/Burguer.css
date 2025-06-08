@@ -1,0 +1,15 @@
+.burguer-img {
+  width: 700px;
+  height: auto;
+  position: fixed;    
+  right: 5%;           
+  top: 50%;           
+  transform: translateY(-50%);
+  filter: brightness(1) contrast(1) saturate(1);
+}
+
+@media (max-width: 600px) {
+  .burguer-img  {
+    display: none;
+  }
+}

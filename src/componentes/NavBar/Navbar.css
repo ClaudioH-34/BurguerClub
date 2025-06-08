@@ -1,0 +1,55 @@
+.navbar {
+  text-align: center;
+}
+
+.logo {
+  height: auto;
+  max-height: 20px;
+  max-width: 100%;
+  margin-left: 40px; 
+  position: fixed;
+  left: 0;
+  top: 4vh;
+  z-index: 1000;
+}
+
+.logo  {
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  filter: brightness(0) saturate(100%) invert(70%) sepia(50%) saturate(600%) hue-rotate(10deg);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Sansita Swashed';
+  color: #FBFADA;
+  cursor: pointer;
+}
+
+.nav-list li a:hover {
+  color: #F4C95D;
+}
+
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  .nav-list {
+    gap: 2rem;
+
+  }
+}

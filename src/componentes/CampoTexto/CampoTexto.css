@@ -1,0 +1,80 @@
+.campo-texto {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 50px;
+  line-height: 1.2; 
+}
+
+.campo-texto h1 {
+  font-size: 100px; 
+  font-family: 'Sansita Swashed', cursive;
+  color: #FBFADA;
+  margin: 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.campo-texto h1:hover {
+  filter: brightness(0) saturate(100%) invert(70%) sepia(50%) saturate(600%) hue-rotate(10deg);
+
+}
+
+
+.campo-texto h2 {
+  font-size: 50px; 
+  font-family: 'Lexend Zetta', sans-serif;
+  color: #ADBC9F;
+  margin: -3%;
+  font: bold;
+  margin-left: 30%;
+  margin-top: -20px;
+}
+
+.campo-texto p {
+  font-size: 20px; 
+  font-family: 'Lexend Zetta', sans-serif;
+  color: #ADBC9F;
+  margin-top: 20px;
+  font: bold;
+  margin-left: 30%;
+}
+
+@media (max-width: 600px) {
+  .campo-texto {
+  position: fixed;
+  left: 0;
+  top: 90%;
+  transform: translateY(-50%);
+  padding-left: 50px;
+  line-height: 1.2; 
+}
+  .campo-texto h1 {
+  font-size: 60px; 
+  font-family: 'Sansita Swashed', cursive;
+  color: #FBFADA;
+  margin: 0;
+}
+
+  .campo-texto h2 {
+  font-size: 25px; 
+  font-family: 'Lexend Zetta', sans-serif;
+  color: #ADBC9F;
+  margin: -5%;
+  font: bold;
+  margin-left: 22%;
+  margin-top: -20px;
+}
+
+  .campo-texto p {
+  font-size: 20px; 
+  font-family: 'Lexend Zetta', sans-serif;
+  color: #ADBC9F;
+  margin-top: 10px;
+  font: bold;
+  margin-left: 0%;
+}
+
+
+}
