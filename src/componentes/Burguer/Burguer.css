@@ -1,15 +1,21 @@
 .burguer-img {
-  width: 700px;
+  width: 900px;
   height: auto;
   position: fixed;    
-  right: 5%;           
+  right: 10%;           
   top: 50%;           
   transform: translateY(-50%);
   filter: brightness(1) contrast(1) saturate(1);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .burguer-img  {
-    display: none;
+    width: 50px;
+    height: auto;
+    right: -5%;          
+    top: 45%;           
+    position: fixed;
+    transform: translateY(-50%);
+    filter: brightness(1) contrast(1) saturate(1);  
   }
 }
