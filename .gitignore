@@ -1,23 +1,15 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Licença Privada
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+© 2025 Claudio Henrique Antunes Mello
 
-# testing
-/coverage
+Todos os direitos reservados.
 
-# production
-/build
+Este código-fonte é privado e proprietário.  
+Nenhuma parte deste código pode ser reproduzida, distribuída, copiada, modificada, exibida publicamente ou usada de qualquer forma sem a autorização expressa por escrito do autor.
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+Uso, distribuição ou reprodução não autorizados deste código são estritamente proibidos e podem resultar em sanções legais.
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+---
+
+Contato para autorização: [seu-email@exemplo.com]
+node_modules
